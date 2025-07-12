@@ -1,0 +1,251 @@
+:root {
+    --green: #5a7348;
+    --yellow: #f2b544;
+    --cream: #f2efe9;
+    --orange: #d98a29;
+    --brown: #733a19;
+  }
+  
+  .logo-image {
+    height: 150px; 
+    margin-right: 10px;
+    vertical-align: middle; 
+  }
+  
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--cream);
+    color: var(--brown);
+  }
+  
+  
+  h2 {
+    text-align: center;  
+    font-size: 2.5rem;
+    color: var(--green);  
+    margin-top: 2rem;  
+    margin-bottom: 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  
+
+header {
+  background-color: var(--cream);
+  padding: 0;
+   border-bottom: 1px solid #dcd5c9;
+}
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: var(--green);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .logo a:hover {
+    color: var(--orange);
+  }
+  
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: var(--green);
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: var(--orange);
+  }
+  
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .search-bar input {
+    border: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    outline: none;
+    width: 180px;
+  }
+  
+  .search-bar button {
+    background-color: var(--yellow);
+    color: var(--brown);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: var(--orange);
+    color: white;
+  }
+  
+  
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    padding: 2rem;
+  }
+  
+ 
+  .recipe-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    max-height: 200px; 
+  }
+  
+
+  .recipe-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .recipe-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  
+.favorite {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--green);
+    background-color: var(--cream);
+    padding: 0.3rem 0.6rem;
+    border-radius: 8px;
+    margin-top: 1rem; 
+  }
+  
+ 
+  .meal-plan {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--green);
+    background-color: var(--cream);
+    padding: 0.3rem 0.6rem;
+    border-radius: 8px;
+    margin-top: 1rem; 
+  }
+  
+ 
+  .meal-plan input[type="checkbox"] {
+    transform: scale(1.2); 
+    accent-color: var(--orange);
+  }
+  
+  
+  
+  .meal-plan-btn {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .meal-plan-btn button {
+    background-color: var(--yellow);
+    color: var(--brown);
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .meal-plan-btn button:hover {
+    background-color: var(--orange);
+    color: white;
+  }
+  
+ 
+  footer {
+    background-color: var(--green);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  footer .social-links {
+    margin-bottom: 1rem;
+  }
+  
+  footer .social-links a {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+  
+  footer .social-links img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0.4);
+  }
+  
+  footer .social-links a:hover img {
+    filter: brightness(0.8);
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  
+
