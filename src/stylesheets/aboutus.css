@@ -124,6 +124,19 @@ header {
 }
 
 
+.about-section, .mission-section, .features-section ul, .fun-facts ul {
+  text-align: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+.about-section, .mission-section, .features-section ul, .fun-facts ul {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  
+}
+
+
 footer {
     background-color: var(--green);
     color: white;
